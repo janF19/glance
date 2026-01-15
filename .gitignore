@@ -1,5 +1,3 @@
-/assets
-/build
-/playground
-/.idea
-/glance*.yml
+glance-data/
+glance-config/glance.yml
+.env
