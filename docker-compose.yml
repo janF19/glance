@@ -2,14 +2,14 @@ version: '3.8'
 
 services:
   glance:
-    build: ./glance
+    build: .
     container_name: glance
     restart: unless-stopped
     ports:
       - "8080:8080"
     volumes:
-      - ./glance-config:/app/config
-      - ./glance-data:/app/data
+      - ./config:/app/config
+      - ./data:/app/data
     environment:
       - TZ=Europe/London  # Change to your timezone
     labels:
