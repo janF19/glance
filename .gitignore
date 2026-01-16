@@ -1,3 +1,2 @@
-glance-data/
-glance-config/glance.yml
+data/
 .env
